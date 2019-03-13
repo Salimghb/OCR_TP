@@ -1,4 +1,4 @@
-package com.mproduits.web.exceptions;
+package fr.orleans.miage.ocr.client.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -9,6 +9,3 @@ public class ProductNotFoundException extends RuntimeException {
         super(message);
     }
 }
-
-
-
